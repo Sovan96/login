@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.login-box{
+    position: absolute;
+    top:30%;
+    left:40%;
+    width:400px;
+    height: 273px;
+    background-color: aqua;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.login-box:hover{
+     color: salmon;
+     background-color:rgb(7, 56, 28);
+}
+.login-box h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.user{
+    position: relative;
+}
+.user input{
+    width:100%;
+    font-size: 20px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    border-bottom:2px solid black;
+    color: black;
+}
+.user small{
+    font-size: 15px;
+     color: brown;
+     pointer-events: none;
+}
+.user label{
+    
+    font-size: 20px;
+    color: blueviolet;
+    pointer-events: none;
+    transition: .5s;
+}
+.sub{
+    position: relative;
+}
+.sub a{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+text-align: center;
+    margin:10px 150px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    padding:  1px 10px;
+}
+.sub a:hover{
+    color:brown;
+    background-color: aliceblue;
+}
